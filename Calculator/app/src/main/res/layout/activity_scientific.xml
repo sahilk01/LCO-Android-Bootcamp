@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scientific"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <EditText
+            android:id="@+id/stv1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="none"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="viewEnd"
+            android:textIsSelectable="true"
+            android:textColor="@color/colorTheme"
+            android:background="@android:color/white"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/stv2"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/colorTheme"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sultai"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="!"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/ssin"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="sin"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/scos"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="cos"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/stan"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="tan"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sln"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="ln"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/slog"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="log"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sultav"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="^"
+                android:gravity="center_vertical|center_horizontal|bottom"
+                android:textAlignment="gravity"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sopen"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="("
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sseven"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="7"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sfour"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="4"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sone"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="1"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/szero"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="0"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sroot"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="√"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sclose"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text=")"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/seight"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="8"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sfive"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="5"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/stwo"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="2"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sdot"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="."
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="60sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="6"
+            android:layout_width="0dp"
+            android:background="@color/colorTheme"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/spi"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:src="@drawable/pi"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:scaleType="centerInside"
+                android:scaleY="0.3"
+                android:scaleX="0.3"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/se"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="e"
+                android:fontFamily="sans-serif-condensed"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/snine"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="9"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/ssix"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="6"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sthree"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="3"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sdiv"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="÷"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="60sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sclear"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="c"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <ImageButton
+                android:id="@+id/sback"
+                android:layout_weight="1"
+                android:src="@drawable/back"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:background="@color/colorTheme"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/splus"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="+"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/smul"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="x"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sminus"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="-"
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <Button
+                android:id="@+id/sequal"
+                android:layout_weight="1"
+                android:background="@color/colorTheme"
+                android:text="="
+                android:textAllCaps="false"
+                android:fontFamily="@font/advent_pro_light"
+                android:textSize="60sp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
